@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">Pingdroid</string>
+	<string name="instruction">接続先IPアドレス</string>
+	<string name="remarks">備考</string>
+	<string name="pingHistory">ping接続確認履歴</string>
+	<string name="reflesh">Reflesh</string>
+	<string name="start_pinging">ping開始</string>
+	<string name="server_alived">応答あり</string>
+	<string name="server_dead">応答なし</string>
+</resources>

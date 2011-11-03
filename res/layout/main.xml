@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/instruction" />
+	<EditText android:id="@+id/destinationAddressWindow"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/remarks" />
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/remarksWindow" />
+	<Button android:id="@+id/startPinging" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="StartPinging" />
+	<Button android:id="@+id/reflesh" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Reflesh"></Button>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/pingHistory" />
+	<ListView android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/PingHistoryList"></ListView>
+</LinearLayout>
